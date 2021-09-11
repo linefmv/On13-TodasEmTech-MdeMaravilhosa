@@ -67,12 +67,143 @@ header {
 
 /*********** HEADER   *********/
 
+.header_button:hover {
+    background-color: #2e1842;
+    color: #ffffff;
+    transition: background-color .5s;
+}
 /* SECAO Maravilhosa */
+.maravilhosa {
+    background-color: #fad8e5;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 25px;
+}
+
+.container_maravilhosa {
+    text-align: center;
+    padding: 0 5%;
+}
+
+.maravilhosa_titulo{
+    color: #ea4c89;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.maravilhosa_boxBorder{
+    border:1px solid #674582;
+    margin: 42px;
+}
+
+.boxBorder_texto{
+    margin: 30px;
+    color: #462755;
+    text-align: center;
+}
+
+.container_suaHistoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #674582;
+}
+
+.suaHistoria_imagem {
+    width: 80%;
+    margin-bottom: 30px;
+
+}
+
+.suaHistoria_texto{
+    width: 100%;
+}
+
+.suaHistoria_titulo{
+    color: #462755;
+    padding-bottom: 10px;
+}
+
+.suaHistoria_paragrafo{
+    padding-bottom: 10px;
+}
 
 /* AUTORA */
+.autora {
+    background-color: #b6dbf1d2;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    padding: 60px;
+}
 
-/* SECAO Recado */
+.autora_titulo{
+    text-align: center;
+    color: #ea4c89;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+
+.autora_sobre{
+    display: flex;
+}
+
+.autora_imagem {
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 35px;
+}
 
 /* FOOTER */
+.footer {
+    background: #ea4c89;
+    color: #f3f3f3;
+}
+
+.footer_menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 60px;
+    font-size: 1.4rem;
+    padding: 30px;
+}
+
+.footer_links {
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+
+.footer_cc {
+    background: #5B5E5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
 
 /* MEDIA QUERY */
+
+@media (min-width: 768px){
+    .container_header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header_maravilhosa_img{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 180px;
+        margin-left: 8px;
+    }
+}
