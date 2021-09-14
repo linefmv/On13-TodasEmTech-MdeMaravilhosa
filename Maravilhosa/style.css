@@ -185,9 +185,11 @@
   }
   
   .autora_imagem {
-      width: 20%;
+      width: 57%;
+      height: 10%;
       border-radius: 50%;
       margin-right: 35px;
+
   }
   
   /* FOOTER */
